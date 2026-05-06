@@ -234,10 +234,6 @@ class NewCustomDataset_cluster(Dataset): #NOTEsp 用于聚类的数据集，回�
         self.all_data = []
         # all_data_files = os.listdir(data_path)#[:10]
         # 如果有数据就直接读取，如果没有就生成．
-        if model == 'test':
-            len = 1000
-        else:
-            len = 8998
         data_path_all = os.path.join('data', "all_data"+model+str(len)+".pkl")
         if os.path.exists(data_path_all):
             with open(data_path_all, 'rb') as f:
