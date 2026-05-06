@@ -37,18 +37,10 @@ There are two main top-level scripts in this repo:
 2. `load_data.py`: reads images from files and creates pairs. It generates keypoints, descriptors and ground truth matches which will be used in training.
 
 ### Download Data
-Download the COCO2014 dataset files for training
+Download the dataset files for training
 ```
-wget http://images.cocodataset.org/zips/train2014.zip
-```
-Download the validation set
-```
-wget http://images.cocodataset.org/zips/val2014.zip
-```
-Download the test set
-```
-wget http://images.cocodataset.org/zips/test2014.zip
-```
+wget data: https://pan.baidu.com/s/14cN6i9lQlBoZEb31J0jzPg 提取码: t4h2 
+
 
 ### Training Directions
 
