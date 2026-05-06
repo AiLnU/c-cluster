@@ -43,7 +43,7 @@ parser.add_argument(
     '--batch_size', type=int, default=10,# 太大就超内存了
     help='batch_size')
 parser.add_argument(
-    '--train_path', type=str, default='/home/lsp/matchpoint/target20_datas_diff/train_datasets/', #/home/lsp/matchpoint/data_prepare_G/10000_data_5s_train/
+    '--train_path', type=str, default='', #/home/lsp/matchpoint/data_prepare_G/10000_data_5s_train/
     help='Path to the directory of training imgs.')
 parser.add_argument(
     '--use_other', type=bool, default=False,
